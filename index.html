@@ -1,137 +1,227 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Site Plan</title>
-    <link type="text/css" rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mae Brown Design Studio</title>
 </head>
 
 <body>
-    <header>
-        <h1>Eda Mae Brown Site Plan</h1>
-        <h2>Eda Mae Brown</h2>
-        <h2>WDD 130</h2>
-        <!-- In the header above, add the name of your site, your name and class number. For example if you are in section 3 you would put WDD 130-03 -->
-    </header>
-    <main>
-        <!-- ------------------------Steps 2-5------------------------------ -->
-        <hr />
-        <h2>Overview</h2>
-        <h3>Purpose</h3>
-        <p>This website is going to be my online portfolio. <br>
-            The website will be showcasing <br>
-            my latest work and previous projects. <br>
-            Here employers and clients can also get to know me, <br>
-            and get in touch with me on my About Me page.
-        </p>
-        <!-- change this -->
+    <div id="content">
 
-        <h3>Audience</h3>
-        <p>The intended audience for this website are <br>
-            potential employers, potential clients, previous Clients <br>
-            and others who are interested in getting to know me <br>
-            and the work that I do.
-        </p>
-        <!-- change this -->
+        <!-- Header and Nav Section-->
+        <header>
+            <a href="index.html" id="logo-link">
+                <img class="logo" src="./assets/images/mbc.png" alt="Eda Mae Brown Creatives Company logo" />
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#" target="_blank">Portfolio</a>
+                <a href="#" target="_blank">About Me</a>
+                <a href="./contact-us/contactus.html" target="_blank">Contact Us</a>
+            </nav>
+        </header>
 
-        <hr />
-        <h2>Branding</h2>
-        <h3>Website Logo</h3>
-        <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-        <img src="./assets/images/logo.png" alt="Logo image" />
-        <hr />
-        <h2>Style Guide</h2>
-
-        <!-- ------------------------Steps 6-9------------------------------ -->
-
-        <h3>Color Palette</h3>
-        <!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in Canvas then return and replace the color codes below with the hex color codes (the 6 digit numbers that show at the bottom of each color) for the colors you have chosen below.  You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
-
-        <!-- Copy and paste the URL to your finished palette below. Replace the href value that is there with yours. Make sure to paste it into both the href value and the content text of the <a> tag -->
-        <p>Palette URL:</p>
-        <a href="https://coolors.co/fff9f7-d5bb6e-dd8a63-c0dbda-718075"
-            target="_blank">hhttps://coolors.co/fff9f7-d5bb6e-dd8a63-c0dbda-718075</a>
-
-        <table class="colors">
-            <tr>
-                <th>Primary</th>
-                <th>Secondary</th>
-                <th>Tertiary</th>
-                <th>Accent 1</th>
-                <th>Accent 2</th>
-                <th>Accent 3</th>
-            </tr>
-            <!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
-            <tr>
-                <td class="primary">#fff9f7</td>
-                <td class="secondary">#D5BB6E</td>
-                <td class="tertiary">#DD8A63</td>
-                <td class="accent1">#C0DBDA</td>
-                <td class="accent2">#718075</td>
-                <td class="accent3">#396e94</td>
-            </tr>
-        </table>
-
-        <!-- ------------------------Steps 10-12------------------------------ -->
-
-        <h3>Typography</h3>
-        <!-- Choose a font for your paragraphs (body copy) and headlines. What font(s) have you chosen? Think also about which of your colors above you might use for background and font colors. -->
-
-        <h4>
-            Heading Font: Playfair Display
-            <!-- change this -->
-        </h4>
-        <h4>
-            Paragraph Font: Source Sans Pro
-        </h4>
-        <h3>Normal paragraph example</h3>
-        <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quae fugit animi cupiditate eos delectus
-            voluptatem quisquam tempora, quasi iure tempore pariatur similique explicabo? Voluptatem, ratione! Non
-            quaerat ex corporis.
-        </p>
-        <h3>Colored paragraph example</h3>
-        <p class="colored">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum quae fugit animi cupiditate eos delectus
-            voluptatem quisquam tempora, quasi iure tempore pariatur similique explicabo? Voluptatem, ratione! Non
-            quaerat ex corporis.
-        </p>
-
-        <!-- ------------------------Step 13------------------------------ -->
-
-        <h3>Navigation</h3>
-        <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. -->
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Portfolio</a>
-            <a href="#">About Me</a>
-        </nav>
-        <hr />
-        <h2>Site Map</h2>
-        <div class="sitemap">
-            <div class="sm-home">Home</div>
-            <div class="sm-page2">
-                Portfolio
-                <!-- this page will have a name later -->
-            </div>
-            <div class="sm-page3">About Me</div>
-
-            <div class="top">&nbsp;</div>
-            <div class="left">&nbsp;</div>
-            <div class="right">&nbsp;</div>
+        <!--Hero Section-->
+        <div id="hero">
+            <section id="hero-msg">
+                <img class="hero-img" src="./assets/images/hero1.png" alt="vector art of a woman wt" />
+                <h1 class="home-title">
+                    Hi, I am Mae Brown <br>
+                    a creative designer <br>
+                    from Miami, FL. <br>
+                </h1>
+                <h4>
+                    I am a digital designer and developer <br>
+                    with a passion for helping startups <br>
+                    and small businesses <br>
+                    establish a strong <br>
+                    online presence. <br>
+                </h4>
+                <div class="button-box">
+                    <a class="book" href="contactus.html">GET IN TOUCH</a>
+                </div>
+            </section>
         </div>
-        <hr />
-        <h2>Wireframes</h2>
-        <!-- Create an additional wireframe for your site. List it here below the Home page wireframe. -->
 
-        <h3>Home</h3>
+        <!--Main Body Section-->
+        <main class="main-grid">
 
-        <img src="https://byui-wdd.github.io/wdd130/rafting_images/wireframe_home.png" alt="home page wireframe" />
+            <div class="services">
+                <section class="section-name">
+                    <img src="./assets/images/services.png" alt="" srcset="">
+                    <div>
+                        <div class="service-icon">
+                            <img src="./assets/images/drawing.png" alt="">
+                            <h2>BRANDING</h2>
+                            <p>
+                                My branding services include the creation of a unique and cohesive brand identity for
+                                your business. This includes the development of a logo, color scheme, and typography
+                                that accurately represents your brand.
+                            </p>
+                        </div>
+                        <div class="service-icon">
+                            <img src="./assets/images/user-interface.png" alt="">
+                            <h2>WEB DESIGN</h2>
+                            <p>
+                                As a digital designer, I offer a range of design services to help bring your brand to
+                                life. This includes the creation of visual assets such as website design, social media
+                                graphics, and marketing materials.
+                            </p>
+                        </div>
+                        <div class="service-icon">
+                            <img src="./assets/images/devices.png" alt="">
+                            <h2>WEB DEVELOPMENT</h2>
+                            <p>
+                                Development includes the creation of a functional and visually appealing website, as
+                                well as the development of any necessary digital assets. Whatever you need, I can help
+                                bring your vision to life.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="work">
+                <section class="section-name">
+                    <img src="./assets/images/project.png" alt="" srcset="">
+                    <div>
+                        <div class="work-img">
+                            <img src="./assets/images/coming-soon.png" alt="">
+                            <h2>PROJECT TITLE</h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio aliquid culpa
+                                id temporibus, nihil fugit. Consequatur voluptatibus animi, consectetur placeat, rem ex
+                                optio maiores beatae cumque, earum expedita. Quidem veniam esse quae vel ut.
+                            </p>
+                        </div>
+                        <div class="work-img">
+                            <img src="./assets/images/coming-soon.png" alt="">
+                            <h2>PROJECT TITLE</h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio aliquid culpa
+                                id temporibus, nihil fugit. Consequatur voluptatibus animi, consectetur placeat, rem ex
+                                optio maiores beatae cumque, earum expedita. Quidem veniam esse quae vel ut.
+                            </p>
+                        </div>
+                        <div class="work-img">
+                            <img src="./assets/images/coming-soon.png" alt="">
+                            <h2>PROJECT TITLE</h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio aliquid culpa
+                                id temporibus, nihil fugit. Consequatur voluptatibus animi, consectetur placeat, rem ex
+                                optio maiores beatae cumque, earum expedita. Quidem veniam esse quae vel ut.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
 
-        <!-- <img src="#" alt="page 2 wireframe"> -->
-    </main>
+            <div class="design">
+                <section class="section-name">
+                    <img src="./assets/images/design.png" alt="" srcset="">
+                    <img src="./assets/images/design-process.png" alt="">
+                    <div>
+                        <img src="" alt="">
+                        <h2>Discovery</h2>
+                        <p>During this phase, we will discuss your business goals, target audience, and any existing
+                            branding materials. This will help me understand your needs and create a customized plan for
+                            your brand.</p>
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <h2>Design</h2>
+                        <p>In this step, I will present you with a range of branding options, including logo designs,
+                            color schemes, and typography. We will work together to fine-tune the final branding
+                            elements until they perfectly represent your brand.</p>
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <h2>Development</h2>
+                        <p>Once the branding is finalized, I will bring your brand to life by developing any necessary
+                            digital assets, such as a website or social media graphics. I will also work with you to
+                            ensure that your brand is properly integrated across all online platforms.</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="about">
+                <section class="section-name">
+                    <img src="./assets/images/about_me-min.png" alt="" srcset="">
+                    <div id="about">
+                        <section id="about-msg">
+                            <img class="about-img" src="./assets/images/profile_flip-min.png"
+                                alt="vector art of a woman wt" />
+                            <h1 class="about-title">
+                                Hi, there!<br>
+                            </h1>
+                            <p>
+                                I'm Mae Brown. I was born and raised in the beautiful island of Cebu, Philippines.
+                                I love everything with coconut and am crazy about our island's magoes.
+                                In 2021, I got married to the handsome love of my life and
+                                together we were blessed to have four beautiful girls.
+
+                                Currently, I am a student at Brigham Young University- Idaho majoring in Software
+                                Development, minor in Business Management, and working towards a Certificate in Graphic
+                                Design.
+                                As you can see my website is still in construction mode as I am working on building my
+                                online portfolio as I gain new skills in Web
+                                Design and Programming.
+
+                                I am passionate about UI/UX design and Web Design.
+                                I am a skilled front-end developer, a quick learner and a team worker that
+                                gets the job done.
+                            </p>
+                            <div class="button-box">
+                                <a class="book" href="contactus.html">GET IN TOUCH</a>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+
+            <div class="contact">
+                <section class="section-name">
+                    <img src="./assets/images/create-min.png" alt="" srcset="">
+                    <img src="./assets/images/mailbox.png" alt="">
+                    <p>
+
+                    </p>
+                </section>
+            </div>
+
+        </main>
+
+        <!--Footer Section-->
+        <footer>
+            <p>Eda Mae Brown Creatives &copy; 2023 - Mae Brown</p>
+            <p>
+                <a href="#" target="_blank">Portfolio</a>
+            </p>
+            <p>
+                <a href="./contact-us/contactus.html" target="_blank">Contact Us</a>
+            </p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="./assets/images/facebook.png" alt="fb icon" />
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="./assets/images/instagram.png" alt="instagram icon" />
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="./assets/images/linkedin.png" alt="linkedin icon" />
+                </a>
+                <a href="https://dribble.com" target="_blank">
+                    <img src="./assets/images/dribbble.png" alt="driblle icon" />
+                </a>
+
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
