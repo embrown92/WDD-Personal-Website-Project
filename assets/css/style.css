@@ -243,7 +243,7 @@ h4 {
 }
 
 .book {
-  background-color: var(--tertiary-color);
+  background-color: var(--accent2-color);
   color: var(--primary-color);
   text-decoration: none;
   padding: 15px 30px;
@@ -252,7 +252,7 @@ h4 {
 }
 
 .book:hover {
-  background-color: var(--accent2-color);
+  background-color: var(--accent3-color);
   color: var(--primary-color);
 }
 
