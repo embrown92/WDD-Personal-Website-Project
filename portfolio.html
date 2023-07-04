@@ -2,108 +2,175 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/">
-    <title>Mae Brown Design Studio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <div id=" content">
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" target="_blank" class="nav__logo"><img src="./assets/images/logo.png"
+                        width="150px"></a>
+            </div>
 
-        <!-- Header and Nav Section-->
-        <header>
-            <a href="index.html" id="logo-link">
-                <img class="logo" src="./assets/images/logo.png" width="350px"
-                    alt="Eda Mae Brown Creatives Company logo" />
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="portfolio.html" target="_blank">Portfolio</a>
-                <a href="about.html" target="_blank">About Me</a>
-                <a href="contact.html" target="_blank">Contact</a>
-            </nav>
-        </header>
+            <div class=" nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" target="_blank" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" target="_blank" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#portfolio" target="_blank" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" target="_blank" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
 
-        <!--Main Section-->
-        <div class="work">
-            <section class="section-name">
-                <img src="./assets/images/project.png" width="550px" alt="" srcset="">
-                <div>
-                    <div class="work-img">
-                        <img src="./assets/images/run-buddy.png" width="550px" alt="">
-                        <h2>RUN BUDDY</h2>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio aliquid culpa
-                            id temporibus, nihil fugit. Consequatur voluptatibus animi, consectetur placeat, rem ex
-                            optio maiores beatae cumque, earum expedita. Quidem veniam esse quae vel ut.
-                        </p>
-                    </div>
-                    <div class="work-img">
-                        <img src="./assets/images/horiseon.png" width="550px" alt="">
-                        <h2>HORISEON</h2>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio aliquid culpa
-                            id temporibus, nihil fugit. Consequatur voluptatibus animi, consectetur placeat, rem ex
-                            optio maiores beatae cumque, earum expedita. Quidem veniam esse quae vel ut.
-                        </p>
-                    </div>
-                    <div class="work-img">
-                        <img src="./assets/images/white_water_rafting.png" width="550px" alt="">
-                        <h2>WHITE WATER RAFTING</h2>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio aliquid culpa
-                            id temporibus, nihil fugit. Consequatur voluptatibus animi, consectetur placeat, rem ex
-                            optio maiores beatae cumque, earum expedita. Quidem veniam esse quae vel ut.
-                        </p>
-                    </div>
-                    <div>
-                        <div class="button-box">
-                            <a class="book" href="contact.html">GET IN TOUCH</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--===== Main =====-->
+
+    <img src="./assets/images/project.png" class="section-title">
+
+    <!--===== Portfolio =====-->
+
+    <section class="portfolio section">
+
+        <div class="portfolio-work">
+            <center class="portfolio-img">
+                <img src="./assets/images/run-buddy.png" width="550px" alt="">
+            </center>
+            <h2>RUN BUDDY LANDING PAGE</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio aliquid culpa
+                id temporibus, nihil fugit. Consequatur voluptatibus animi, consectetur placeat, rem ex
+                optio maiores beatae cumque, earum expedita. Quidem veniam esse quae vel ut.
+            </p>
         </div>
 
+        <div class="portfolio-work">
+            <center class="portfolio-img">
+                <img src="./assets/images/horiseon.png" width="550px" alt="">
+            </center>
+            <h2>HORISEON LANDING PAGE</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio aliquid culpa
+                id temporibus, nihil fugit. Consequatur voluptatibus animi, consectetur placeat, rem ex
+                optio maiores beatae cumque, earum expedita. Quidem veniam esse quae vel ut.
+            </p>
+        </div>
 
-        <!--Footer Section-->
-        <footer>
-            <p>Eda Mae Brown Creatives &copy; 2023 - Mae Brown</p>
-
+        <div class="portfolio-work">
+            <center class="portfolio-img">
+                <img src="./assets/images/white_water_rafting.png" width="550px" alt="">
+            </center>
             <div>
-                <h4>LINKS</h4>
-                <a href="index.html">Home</a>
-                <a href="portfolio.html" target="_blank">Portfolio</a>
-                <a href="about.html" target="_blank">About Me</a>
-                <a href="contact.html" target="_blank">Contact</a>
+                <h2>WHITE WATER RAFTING SITE</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia distinctio aliquid
+                    culpa
+                    id temporibus, nihil fugit. Consequatur voluptatibus animi, consectetur placeat, rem
+                    ex
+                    optio maiores beatae cumque, earum expedita. Quidem veniam esse quae vel ut.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="portfolio-contact">
+        <img src="./assets/images/create-min.png" class="section-title">
+
+        <div class="contact__container bd-grid">
+            <div class="contact__info">
+
+                <h3 class="contact__subtitle">BRANDING</h3>
+                <img class="service-icons" src="./assets/images/branding.png" alt="branding icon">
+                <span class="contact__text">My branding services include the creation of a unique and
+                    cohesive brand
+                    identity for
+                    your business.</span>
+
+                <h3 class="contact__subtitle">WEB DESIGN</h3>
+                <img class="service-icons" src="./assets/images/wed-design.png" alt="web design icon">
+                <span class="contact__text">As a digital designer, I offer a range of design services to
+                    help bring
+                    your brand to
+                    life.</span>
+
+                <h3 class="contact__subtitle">WEB DEVELOPMENT</h3>
+                <img class="service-icons" src="./assets/images/web-dev.png" alt="web dev icon">
+                <span class="contact__text">Development includes the creation of a functional and
+                    visually appealing
+                    website, as
+                    well as the development of any necessary digital assets. Whatever you need, I can
+                    help
+                    bring your vision to life.</span>
             </div>
 
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="./assets/images/facebook.png" width="50px" alt="fb icon" />
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="./assets/images/instagram.png" width="50px" alt="instagram icon" />
-                </a>
-                <a href="https://pinterest.com" target="_blank">
-                    <img src="./assets/images/pinterest.png" width="50px" alt="pinterest icon" />
-                </a>
-                <a href="https://linkedin.com" target="_blank">
-                    <img src="./assets/images/linkedin.png" width="50px" alt="linkedin icon" />
-                </a>
-                <a href="https://dribbble.com" target="_blank">
-                    <img src="./assets/images/dribbble.png" width="50px" alt="driblle icon" />
-                </a>
-                <a href="https://github.com" target="_blank">
-                    <img src="./assets/images/github.png" width="50px" alt="github icon" />
-                </a>
+            <form action="" class="contact__form">
+                <div class="contact__inputs">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                </div>
+
+                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                <input type="submit" value="SUBMIT" class="contact__button">
+            </form>
+        </div>
+    </section>
 
 
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">Mae Brown</h2>
+                <p class="footer__text">I'm Mae Brown and this is my personal website</p>
             </div>
-        </footer>
-    </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="index.html" target="_blank" class="footer__link">Home</a></li>
+                    <li><a href="about.html" target="_blank" class="footer__link">About</a></li>
+                    <li><a href="index.html" target="_blank" class="footer__link">Skills</a></li>
+                    <li><a href="portfolio.html" target="_blank" class="footer__link">Portfolio</a></li>
+                    <li><a href="contact.html" target="_blank" class="footer__link">Contact</a></li>
+                    <li><a href="site_plan.html" target="_blank" class="footer__link">Site Plan</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">FOLLOW</h2>
+                <a href="https://www.facebook.com/" class="footer__social" target="_blank"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/" class="footer__social" target="_blank"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/" class="footer__social" target="_blank"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
