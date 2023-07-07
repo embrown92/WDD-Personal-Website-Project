@@ -1,4 +1,5 @@
 /*===== MENU SHOW =====*/
+
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
         nav = document.getElementById(navId)
@@ -11,6 +12,8 @@ const showMenu = (toggleId, navId) => {
 }
 showMenu('nav-toggle', 'nav-menu')
 
+
+
 /*===== REMOVE MENU MOBILE =====*/
 const navLink = document.querySelectorAll('.nav__link')
 
@@ -20,7 +23,9 @@ function linkAction() {
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+
 /*===== SCROLL SECTIONS ACTIVE LINK =====*/
+
 const sections = document.querySelectorAll('section[id]')
 
 window.addEventListener('scroll', scrollActive)
@@ -112,4 +117,3 @@ function showDivs(n) {
     }
     x[slideIndex - 1].style.display = "block";
 }
-
