@@ -19,15 +19,16 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="index.html" target="_blank" class="nav__logo"><img src="./assets/images/logo.png"
-                        width="150px"></a>
+                <a href="index.html" target="_blank" class="nav__logo">
+                    <img src="./assets/images/logo.png" alt="logo">
+                </a>
             </div>
 
             <div class=" nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="index.html" target="_blank" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="about.html" target="_blank" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="portfolio.html" target="_blank" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="about.html" target="_blank" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="contact.html" target="_blank" class="nav__link">Contact</a></li>
                 </ul>
             </div>
@@ -39,96 +40,81 @@
     </header>
     <!-- Main Section-->
 
-    <div class="about">
-        <section>
-            <div id="about">
-
-                <!--===== ABOUT =====-->
-
-                <section class="about section" id="about">
-                    <img src="./assets/images/about_me-min.png" class="section-title">
-
-                    <center>
-                        <img src="./assets/images/profile_flip-min.png" width="50%" alt="">
-
-                        <h2 class="about__subtitle">Hi, there!</h2>
-                        <h3 class="about__profession">
-                            I'm Mae Brown. <br>
-                            A creative designer from Miami, FL.
-                        </h3>
-                        <p class="about__text">
-                            I was born and raised in the beautiful island of Cebu, Philippines.
-                            I love everything with coconut and am crazy about our island's magoes.
-                            In 2021, I got married to the handsome love of my life and
-                            together we were blessed to have four beautiful girls.
-                            <br><br>
-                            Currently, I am a student at Brigham Young University- Idaho majoring in Software
-                            Development, minor in Business Management, and working towards a Certificate in
-                            Graphic
-                            Design.
-                            <br><br>
-                            As you can see my website is still in construction mode as I am working on building
-                            my
-                            online portfolio as I gain new skills in Web
-                            Design and Programming.
-                            <br><br>
-                            I am passionate about UI/UX design and Web Design.
-                            I am a skilled front-end developer, a quick learner and a team worker that
-                            gets the job done.
-                        </p>
-
-                        <div class="about__social">
-                            <a href="https://www.linkedin.com/" class="about__social-icon"><i
-                                    class='bx bxl-linkedin'></i></a>
-                            <a href="https://github.com/" class="about__social-icon"><i class='bx bxl-github'></i></a>
-                            <a href="https://dribbble.com/" class="about__social-icon"><i
-                                    class='bx bxl-dribbble'></i></a>
-                        </div>
-                    </center>
-                </section>
 
 
+    <!--===== ABOUT =====-->
 
-            </div>
-        </section>
-    </div>
+    <section class="section" id="about">
+        <img alt="about section" src="./assets/images/about_me-min.png" class="section-title">
 
+        <div class="about">
+            <img class="profile-flip" src="./assets/images/profile_flip-min.png" alt="">
 
+            <h2 class="about__subtitle">Hi, there!</h2>
+            <h3 class="about__profession">
+                I'm Mae Brown. <br>
+                A creative designer from Miami, FL.
+            </h3>
+            <p class="about__text">
+                I was born and raised in the beautiful island of Cebu, Philippines.
+                I love everything with coconut and am crazy about our island's magoes.
+                In 2021, I got married to the handsome love of my life and
+                together we were blessed to have four beautiful girls.
+                <br><br>
+                Currently, I am a student at Brigham Young University- Idaho majoring in Software
+                Development, minor in Business Management, and working towards a Certificate in
+                Graphic
+                Design.
+                <br><br>
+                As you can see my website is still in construction mode as I am working on building
+                my
+                online portfolio as I gain new skills in Web
+                Design and Programming.
+                <br><br>
+                I am passionate about UI/UX design and Web Design.
+                I am a skilled front-end developer, a quick learner and a team worker that
+                gets the job done.
+            </p>
+        </div>
+    </section>
 
     <!--===== CONTACT =====-->
     <section class="contact section" id="contact">
-        <img src="./assets/images/create-min.png" class="section-title">
+        <img src="./assets/images/create-min.png" class="section-title" alt="contact">
 
         <div class="contact__container bd-grid">
             <div class="contact__info">
 
                 <h3 class="contact__subtitle">BRANDING</h3>
                 <img class="service-icons" src="./assets/images/branding.png" alt="branding icon">
-                <span class="contact__text">My branding services include the creation of a unique and cohesive brand
+                <span class="contact__text">My branding services include the creation of a unique and cohesive
+                    brand
                     identity for
                     your business.</span>
 
                 <h3 class="contact__subtitle">WEB DESIGN</h3>
                 <img class="service-icons" src="./assets/images/wed-design.png" alt="web design icon">
-                <span class="contact__text">As a digital designer, I offer a range of design services to help bring
+                <span class="contact__text">As a digital designer, I offer a range of design services to help
+                    bring
                     your brand to
                     life.</span>
 
                 <h3 class="contact__subtitle">WEB DEVELOPMENT</h3>
                 <img class="service-icons" src="./assets/images/web-dev.png" alt="web dev icon">
-                <span class="contact__text">Development includes the creation of a functional and visually appealing
+                <span class="contact__text">Development includes the creation of a functional and visually
+                    appealing
                     website, as
                     well as the development of any necessary digital assets. Whatever you need, I can help
                     bring your vision to life.</span>
             </div>
 
-            <form action="" class="contact__form">
+            <form class="contact__form">
                 <div class="contact__inputs">
                     <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
                 </div>
 
-                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                <textarea rows="10" class="contact__input"></textarea>
 
                 <input type="submit" value="SUBMIT" class="contact__button">
             </form>
@@ -140,8 +126,7 @@
     <footer class="footer section">
         <div class="footer__container bd-grid">
             <div class="footer__data">
-                <h2 class="footer__title">Mae Brown</h2>
-                <p class="footer__text">I'm Mae Brown and this is my personal website</p>
+                <h2 class="footer__title">Mae Brown Creatives &copy;2023</h2>
             </div>
 
             <div class="footer__data">
